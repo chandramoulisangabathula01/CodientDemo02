@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
             <p className="text-white/80 mb-6">
               Data-driven digital marketing strategies that deliver measurable results for businesses of all sizes.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a 
                 href="https://linkedin.com" 
                 target="_blank" 
@@ -45,11 +45,11 @@ const Footer: React.FC = () => {
               >
                 <Instagram className="h-5 w-5" />
               </a>
-            </div>
+            </div> */}
           </div>
           
           {/* Services Links */}
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold mb-5">Services</h4>
             <ul className="space-y-3">
               <li>
@@ -78,10 +78,10 @@ const Footer: React.FC = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           
           {/* Quick Links */}
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold mb-5">Quick Links</h4>
             <ul className="space-y-3">
               <li>
@@ -115,7 +115,7 @@ const Footer: React.FC = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           
           {/* Contact Information */}
           <div>
@@ -130,17 +130,17 @@ const Footer: React.FC = () => {
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mr-3 text-secondary flex-shrink-0 mt-0.5" />
                 <a href="tel:+1234567890" className="text-white/80 hover:text-white transition-colors">
-                  (123) 456-7890
+                +91 78933 95833
                 </a>
               </li>
-              <li className="flex items-start">
+              {/* <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-secondary flex-shrink-0 mt-0.5" />
                 <address className="text-white/80 not-italic">
                   123 Marketing Street<br />
                   Digital City, DC 12345<br />
                   United States
                 </address>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

@@ -3,12 +3,12 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
 const navLinks = [
-  { name: 'Home', href: '#home' },
+  // { name: 'Home', href: '#home' },
   { name: 'Services', href: '#services' },
   { name: 'Why Us', href: '#why-us' },
   { name: 'Process', href: '#process' },
-  { name: 'Testimonials', href: '#testimonials' },
-  { name: 'Contact', href: '#contact' },
+  // { name: 'Testimonials', href: '#testimonials' },
+  // { name: 'Contact', href: '#contact' },
 ];
 
 const Header = () => {
@@ -62,7 +62,7 @@ const Header = () => {
             href="#contact"
             className="bg-accent hover:bg-accent/90 text-white px-5 py-2 rounded-md font-medium text-sm transition-all duration-200 transform hover:scale-105"
           >
-            Get Started
+            Contact
           </a>
         </nav>
 
@@ -97,7 +97,7 @@ const Header = () => {
               className="bg-accent hover:bg-accent/90 text-white px-5 py-2 rounded-md font-medium text-sm transition-all duration-200 transform hover:scale-105 mt-4"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Get Started
+              Contact
             </a>
           </nav>
         </div>
